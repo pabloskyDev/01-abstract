@@ -1,0 +1,13 @@
+:root {
+    --purple-blue: #4C5FD5;
+    --gray: #dadbf1;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+* {
+    font-family: 'GT America Standard', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
