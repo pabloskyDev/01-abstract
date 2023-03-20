@@ -11,3 +11,25 @@
     margin: 0px;
     padding: 0px;
 }
+
+header {
+    background: var(--black);
+    color: var(--white);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    height: 44px;
+}
+
+header .logo span {
+    display: inline-block;
+    border-left: 3px solid var(--white);
+    border-radius: 2px;
+    padding-left: 16px;
+    margin-left: 16px;
+    line-height: 44px;
+}
