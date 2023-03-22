@@ -76,3 +76,14 @@ header nav button:nth-child(2):hover {
     justify-content: center;
     align-items: center;
 }
+
+.main-search h1 {
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: -4px;
+    margin-bottom: 16px;
+}
+
+.main-search form {
+    display: flex;
+}
