@@ -68,3 +68,11 @@ header nav button:nth-child(2):hover {
     background: var(--gray-black);
     border: 1px solid var(--white);
 }
+.main-search {
+    height: 60vh;
+    background: var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
