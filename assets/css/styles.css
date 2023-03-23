@@ -120,3 +120,38 @@ header nav button:nth-child(2):hover {
 .main-search .input-wrapper .input-icon:focus {
     color: var(--purple-blue);
 }
+
+.main-cards {
+    width: 80%;
+    margin: 8rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.main-cards .card {
+    display: flex;
+}
+.main-cards .card .card__img {
+    margin-top: 50px;
+}
+
+.main-cards .card .card__img img {
+    margin-right: 16px;
+    width: 75px;
+}
+
+.main-cards .card .card__info {
+    margin-left: 16px;
+    padding-right: 39px;
+}
+
+.main-cards .card .card__info h2 {
+    font-size: 24px;
+    margin: 50px 0 16px;
+}
+
+.main-cards .card .card__info p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
