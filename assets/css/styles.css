@@ -85,5 +85,38 @@ header nav button:nth-child(2):hover {
 }
 
 .main-search form {
-    display: flex;
+    width: 700px;
+}
+
+.main-search .input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.main-search .input-wrapper .input {
+    box-sizing: border-box;
+    color: #191919;
+    padding: 15px 35px 15px 15px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.main-search .input-wrapper .input:hover {
+    border-color: var(--purple-blue);
+}
+
+.main-search .input-wrapper .input-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: unset;
+    top: 34%;
+    transform: translateY(-50%);
+    right: 12px;
+}
+
+.main-search .input-wrapper .input-icon:hover,
+.main-search .input-wrapper .input-icon:focus {
+    color: var(--purple-blue);
 }
