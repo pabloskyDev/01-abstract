@@ -16,7 +16,7 @@
 header {
     background: var(--black);
     color: var(--white);
-    padding: 20px 64px;
+    padding: 20px 94px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,6 +45,7 @@ header .logo a:hover {
 
 header nav .btn {
     padding: 6px 22px;
+    margin-left: 12px;
     font-size: 24px;
     border-radius: 10px;
     color: var(--white);
@@ -56,8 +57,9 @@ header nav button:nth-child(1) {
     border: 1px solid var(--white);
 }
 header nav button:nth-child(1):hover {
-    background: var(--purple-blue);
-    border: 1px solid var(--purple-blue);
+    background: var(--white);
+    border: 1px solid var(--white);
+    color: var(--black);
 }
 
 header nav button:nth-child(2) {
@@ -65,8 +67,9 @@ header nav button:nth-child(2) {
     border: 1px solid var(--purple-blue);
 }
 header nav button:nth-child(2):hover {
-    background: var(--gray-black);
+    background: var(--white);
     border: 1px solid var(--white);
+    color: var(--black);
 }
 .main-search {
     height: 60vh;
