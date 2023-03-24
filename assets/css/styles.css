@@ -73,6 +73,7 @@ header nav button:nth-child(2):hover {
 }
 .main-search {
     height: 60vh;
+    min-height: 371px;
     background: var(--gray);
     display: flex;
     flex-direction: column;
@@ -157,4 +158,8 @@ header nav button:nth-child(2):hover {
 .main-cards .card .card__info p {
     font-size: 24px;
     margin-bottom: 20px;
+}
+
+.main-cards .card .card__info .link {
+   display: flex;
 }
