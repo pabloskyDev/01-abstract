@@ -160,6 +160,18 @@ header nav button:nth-child(2):hover {
     margin-bottom: 20px;
 }
 
-.main-cards .card .card__info .link {
+.main-cards .card .card__info a {
    display: flex;
+   font-size: 20px;
+   color: var(--purple-blue);
+   text-decoration: none;
+}
+
+.main-cards .card .card__info a:hover {
+    text-decoration: underline;
+ }
+
+.main-cards .card .card__info a i {
+    font-size: 20px;
+    margin-left: 8px;
 }
