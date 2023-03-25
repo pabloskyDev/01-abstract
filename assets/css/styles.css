@@ -189,6 +189,10 @@ header nav button:nth-child(2):hover {
     cursor: pointer;
 }
 
+.btn-help:hover {
+    background: #3a4ecf;
+}
+
 .btn-help .help {
     display: flex;
 }
