@@ -127,7 +127,7 @@ header nav button:nth-child(2):hover {
 
 .main-cards {
     width: 80%;
-    margin: 8rem auto;
+    margin: 4rem auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -174,4 +174,51 @@ header nav button:nth-child(2):hover {
 .main-cards .card .card__info a i {
     font-size: 20px;
     margin-left: 8px;
+}
+footer {
+    background: var(--black);
+    color: var(--white);
+    padding: 48px 30px 60px;
+}
+
+.container {
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.container .links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .links .link-content .link-content__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.container .links .link-content .link-content__list ul {
+    list-style-type: none;
+}
+
+.container .links .link-content .link-content__list ul li a {
+    line-height: 24px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.container .links .link-content .link-content__list ul li a:hover {
+    text-decoration: underline;
+}
+
+.container .brand {
+    position: relative;
+}
+
+.container .brand .copy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
