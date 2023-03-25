@@ -182,8 +182,8 @@ header nav button:nth-child(2):hover {
     background: var(--purple-blue);
     color: var(--white);
     border-radius: 37px;
-    padding: 13px 22px;
-    bottom: 10px;
+    padding: 12px 22px;
+    bottom: 16px;
     right: 16px;
     z-index: 2;
     cursor: pointer;
@@ -193,10 +193,14 @@ header nav button:nth-child(2):hover {
     display: flex;
 }
 
+.btn-help .help i {
+    font-size: 22px;
+}
+
 .btn-help .help p {
-    line-height: 24px;
+    line-height: 22px;
     font-weight: bold;
-    margin-left: 4px;
+    margin-left: 8px;
 }
 
 footer {
