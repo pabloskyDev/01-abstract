@@ -175,6 +175,30 @@ header nav button:nth-child(2):hover {
     font-size: 20px;
     margin-left: 8px;
 }
+
+.btn-help {
+    position: fixed;
+    display: inline-block;
+    background: var(--purple-blue);
+    color: var(--white);
+    border-radius: 37px;
+    padding: 13px 22px;
+    bottom: 10px;
+    right: 16px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.btn-help .help {
+    display: flex;
+}
+
+.btn-help .help p {
+    line-height: 24px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
 footer {
     background: var(--black);
     color: var(--white);
