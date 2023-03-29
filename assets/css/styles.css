@@ -100,7 +100,7 @@ header nav button:nth-child(2):hover {
 .main-search .input-wrapper .input {
     box-sizing: border-box;
     color: #191919;
-    padding: 15px 35px 15px 15px;
+    padding: 20px 35px 20px 20px;
     width: 100%;
     border-radius: 5px;
 }
