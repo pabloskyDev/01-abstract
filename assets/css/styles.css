@@ -284,21 +284,10 @@ footer {
         display: none;
     }
 }
-@media screen and (max-width: 768px) {
-    header {
-        padding: 20px;
-    }
-    .main-search form {
-        width: 90%;
-        margin: 0 auto;
-    }
-    .main-search h1 {
-        font-size: 60px;
-        line-height: 60px;
-    }
+@media screen and (max-width: 925px) {
     .main-cards {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-rows: repeat(6, auto);
     }
     .container {
         width: 90%;
@@ -318,6 +307,19 @@ footer {
     .container .brand .copy .copy__info p {
         font-size: 16px;
         line-height: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+    .main-search form {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .main-search h1 {
+        font-size: 60px;
+        line-height: 60px;
     }
 }
 @media screen and (max-width: 478px) {
