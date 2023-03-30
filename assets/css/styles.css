@@ -52,6 +52,10 @@ header nav .btn {
     cursor: pointer;
 }
 
+header nav .btn-blue {
+    padding: 6px 32px;
+}
+
 header nav button:nth-child(1) {
     background: var(--gray-black);
     border: 1px solid var(--white);
@@ -71,6 +75,11 @@ header nav button:nth-child(2):hover {
     border: 1px solid var(--white);
     color: var(--black);
 }
+
+.btn-mobile {
+    display: none;
+}
+
 .main-search {
     height: 60vh;
     min-height: 371px;
@@ -86,6 +95,7 @@ header nav button:nth-child(2):hover {
     font-weight: 400;
     letter-spacing: -4px;
     margin-bottom: 16px;
+    line-height: 120px;
 }
 
 .main-search form {
@@ -264,4 +274,55 @@ footer {
 .container .brand .copy .copy__info p {
     font-size: 20px;
     line-height: 28px;
+}
+
+@media screen and (max-width: 1098px) {
+    .btn-mobile {
+        display: block;
+    }
+    .btn-desktop {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+    .main-search form {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .main-search h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .main-cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .container {
+        width: 90%;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2);
+    }
+    .container .links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 150px;
+    }
+    .container .brand .copy {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .container .brand .copy .copy__info p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 478px) {
+    .main-search h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
 }
